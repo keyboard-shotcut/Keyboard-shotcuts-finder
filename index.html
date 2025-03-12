@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Shortcuts Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Keyboard Shortcuts Finder</h1>
+    
+    <label for="platform">Choose Platform:</label>
+    <select id="platform" onchange="displayShortcuts()">
+        <option value="">Select</option>
+        <option value="Windows">Windows</option>
+        <option value="MacOS">MacOS</option>
+        <option value="Linux">Linux</option>
+        <option value="Photoshop">Photoshop</option>
+        <option value="Excel">Excel</option>
+    </select>
+
+    <!-- Dark Mode Toggle Button -->
+    <button id="darkModeButton" onclick="toggleDarkMode()">Enable Dark Mode</button>
+
+    <div id="shortcutList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

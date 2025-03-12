@@ -1,0 +1,39 @@
+/* Default light mode styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: black !important;
+    color: white !important;
+}
+
+#shortcutList {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.shortcut {
+    background: #f4f4f4;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Dark mode shortcut styling */
+.dark-mode .shortcut {
+    background: #333;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
